@@ -1,41 +1,45 @@
-/* 
-
-what you will learn the first lesson
-. how to use the module pattern;
-. More about private and public data, encapsulation and separation of concerns.
-
-*/
-
+// BUDGET CONTROLLER
 var budgetController = (function(){
 
-    var x = 23
-
-    var add = function(a){
-        return x + a
-    }
-
-    return {
-        publicTest: function(b){
-            return add(b)
-        }
-    }
+    //some code
 
 })();
 
 
+// THE UI CONTROLLER
 var UIController = (function() {
     //some code
 })();
 
 
+//THE GLOBEL CONTROLLER
 var controller = ( function(budgetCtrl, UICtrl){
 
-    var z = budgetCtrl.publicTest(20)
+    var ctrlAddItem = function(){
+        // 1. Get the field input data.
 
-    return {
-        anotherPublic: function(){
-            console.log(z)
-        }
+        // 2. Add the item to the budget controller.
+
+        // 3. Add the item to the UI.
+
+        // 4. Claculate the budget.
+
+        // 5. Display the budget.
+        console.log('it works')
+
     }
 
+    document.querySelector('.add_btn').addEventListener('click', ctrlAddItem)
+
+    document.addEventListener('keypress', function(event){
+
+        if (event.keyCode === 13 || event.which === 13){
+            ctrlAddItem();
+        }
+
+    })
+
+
 })(budgetController, UIController);
+
+
