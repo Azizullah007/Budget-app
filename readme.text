@@ -63,3 +63,12 @@ sixth we will add;
  . How to replace parts of strings;
  . How to do DOM manipulation using insertAdjacentHTML method;
  */
+
+
+/*
+ eighth we will add;
+ . How to clear HTML field;
+ . How to use querySelectorAll;
+ . How to convert a list to an array;
+ . A better way to loop over an array then for loops: foreach. 
+*/
