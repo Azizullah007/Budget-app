@@ -217,7 +217,7 @@ h2{
     float: left;
 }
 
-.item_value {
+.item__value {
     float: left;
     transition: transform 0.3s;
 }
@@ -245,11 +245,11 @@ h2{
     color: #FF5049;
 }
 
-.item_delete{
+.item_delete {
     float: left;
 }
 
-.item_delete--btn{
+.item_delete--btn {
     font-size: 22px;
     background: none;
     border: none;
@@ -260,12 +260,12 @@ h2{
     display: none;
 }
 
-.item_delete--btn:focus { outline: none;}
-.item_delete--btn:active { transition: translateY(2px);}
+.item_delete--btn:focus { outline: none; }
+.item_delete--btn:active { transform: translateY(20px); }
 
-.item:hover .item_delete--btn { display: block;}
-.item:hover .item_value { transform:  translateY(-20px);}
-.item:hover .item_percentage { transform: translateX(-20px);}
+.item:hover .item_delete--btn { display: block; }
+.item:hover .item_value { transform: translateX(-20px); }
+.item:hover .item_percentage { transform: translateX(-20px); }
 
 .unpaid {
     background-color: #ffdad9 !important;

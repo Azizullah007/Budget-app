@@ -1,6 +1,6 @@
 /* 
 
-the frist part we will add;
+ The frist part we will add;
 . how to use the module pattern;
 . More about private and public data, encapsulation and separation of concerns.
 
@@ -9,7 +9,7 @@ the frist part we will add;
 
 /* 
 
-second part we will add;
+ Second part we will add;
 . how to setup event listners;
 . How to use event object.
 
@@ -18,7 +18,7 @@ second part we will add;
 
 /* 
 
-third we will add;
+ Third we will add;
  . How to read data from different HTML input types.
 
 */
@@ -26,7 +26,7 @@ third we will add;
 
 /* 
 
-forth we will add;
+ Forth we will add;
  . How and why to create an intialization function.
 
 */
@@ -34,7 +34,7 @@ forth we will add;
 
 /* 
 
-fifth we will add;
+ Fifth we will add;
  . How to choose function constructors that meet our application's need.
  . How to set up a proper data structure for our budget controller.
 
@@ -43,7 +43,7 @@ fifth we will add;
 
 /* 
 
-fifth we will add;
+ Fifth we will add;
  . How to choose function constructors that meet our application's need.
  . How to set up a proper data structure for our budget controller.
 
@@ -51,14 +51,14 @@ fifth we will add;
 
 
 /*
-sixth we will add;
+ Sixth we will add;
  . How to avoid conflict in our data structures;
  . How and why to pass data from one module to another;
  */
 
 
  /*
- seventh we will add;
+ Seventh we will add;
  . A technique for adding bug chunks of HTML into DOM;
  . How to replace parts of strings;
  . How to do DOM manipulation using insertAdjacentHTML method;
@@ -66,9 +66,16 @@ sixth we will add;
 
 
 /*
- eighth we will add;
+ Eighth we will add;
  . How to clear HTML field;
  . How to use querySelectorAll;
  . How to convert a list to an array;
  . A better way to loop over an array then for loops: foreach. 
+*/
+
+
+/*
+ Ninth we will add;
+ . How to conver field input to numbers;
+ . How to prevent false input;
 */
