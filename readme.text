@@ -101,3 +101,9 @@
  . How to use the parentNode property for DOM traversing.
 */
 
+
+/*
+ Thirteenth we will add;
+ . yet another method to loop over an array: map.
+ . How to remove elements from an array using the splice method.
+*/
