@@ -94,4 +94,10 @@
  */
 
 
- 
+/*
+ Twelveth we will add;
+ . Hot to use event delegation in practice;
+ . How to use IDs in HTML to connect the UI with the data model;
+ . How to use the parentNode property for DOM traversing.
+*/
+
