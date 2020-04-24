@@ -79,3 +79,11 @@
  . How to conver field input to numbers;
  . How to prevent false input;
 */
+
+
+/*
+ Tenth we will add;
+ . How and why to create simple, reusable function with only one purpose;
+ . How to sum all elements of an array using the forEach method;
+*/
+
