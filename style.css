@@ -1,20 +1,20 @@
-/*  
-    GENERAL
- */
+/**********************************************
+*** GENERAL
+**********************************************/
 
- * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.clearfix::after{
+.clearfix::after {
     content: "";
     display: table;
     clear: both;
 }
 
-body{
+body {
     color: #555;
     font-family: Open Sans;
     font-size: 16px;
@@ -23,16 +23,15 @@ body{
     font-weight: 400;
 }
 
-.right{ float: right;}
-.red { color: #FF5049 !important}
-.red-focus:focus { border: 1px solid #FF5049 !important;}
+.right { float: right; }
+.red { color: #FF5049 !important; }
+.red-focus:focus { border: 1px solid #FF5049 !important; }
 
+/**********************************************
+*** TOP PART
+**********************************************/
 
-/*     
-** TOP PART
-*/
-
-.top{
+.top {
     height: 40vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(back.png);
     background-size: cover;
@@ -49,7 +48,7 @@ body{
     color: #fff;
 }
 
-.budget_title{
+.budget_title {
     font-size: 18px;
     text-align: center;
     margin-bottom: 10px;
@@ -61,7 +60,7 @@ body{
     font-size: 46px;
     text-align: center;
     margin-bottom: 25px;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
 }
 
 .budget_income,
@@ -88,13 +87,13 @@ body{
 }
 
 .budget_income--value,
-.budget_expenses--value{
+.budget_expenses--value {
     letter-spacing: 1px;
     float: left;
 }
 
 .budget_income--percentage,
-.budget_expenses--percentage{
+.budget_expenses--percentage {
     float: left;
     width: 34px;
     font-size: 11px;
@@ -102,70 +101,70 @@ body{
     margin-left: 10px;
 }
 
-.budget_expenses--percentage{
+.budget_expenses--percentage {
     background-color: rgba(255, 255, 255, 0.2);
     text-align: center;
     border-radius: 3px;
 }
 
-/****************** 
-** BOTTOM PART
- ******************/
 
+/**********************************************
+*** BOTTOM PART
+**********************************************/
 
- /* FORM */
+/***** FORM *****/
+.add {
+    padding: 14px;
+    border-bottom: 1px solid #e7e7e7;
+    background-color: #f7f7f7;
+}
 
- .add{
-     padding: 14px;
-     border-bottom: 1px solid #e7e7e7;
-     background-color: #f7f7f7;
- }
+.add_container {
+    margin: 0 auto;
+    text-align: center;
+}
 
- .add_container {
-     margin: 0 auto;
-     text-align: center;
- }
+.add_type {
+    width: 55px;
+    border: 1px solid #e7e7e7;
+    height: 44px;
+    font-size: 18px;
+    color: inherit;
+    background-color: #fff;
+    margin-right: 10px;
+    font-weight: 300;
+    transition: border 0.3s;
+}
 
- .add_type {
-     width: 55px;
-     border: 1px solid #e7e7e7;
-     height: 44px;
-     font-size: 18px;
-     color: inherit;
-     background-color: #fff;
-     margin-right: 10px;
-     font-weight: 300;
-     transition: border 0.3s;
- }
+.add_description,
+.add_value {
+    border: 1px solid #e7e7e7;
+    background-color: #fff;
+    color: inherit;
+    font-family: inherit;
+    font-size: 14px;
+    padding: 12px 15px;
+    margin-right: 10px;
+    border-radius: 5px;
+    transition: border 0.3s;
+}
 
- .add_description,
- .add_value{
-     border: 1px solid #e7e7e7;
-     background-color: inherit;
-     font-family: inherit;
-     font-size: 14px;
-     padding: 12px 15px;
-     margin-right: 10px;
-     border-radius: 5px;
-     transition: border 0.3s;
- }
+.add_description { width: 400px;}
+.add_value { width: 100px;}
 
- .add_description { width: 400px;}
- .add_value { width: 100px;}
+.add_btn {
+    font-size: 35px;
+    background: none;
+    border: none;
+    color: #28B9B5;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1.1;
+    margin-left: 10px;
+}
 
- .add_btn{
-     font-size: 35px;
-     background: none;
-     border: none;
-     color: #28B9B5;
-     cursor: pointer;
-     display: inline-block;
-     vertical-align: middle;
-     line-height: 1.1;
-     margin-left: 10px;
- }
-
-.add_btn:active { transform: translateY(2px);}
+.add_btn:active { transform: translateY(2px); }
 
 .add_type:focus,
 .add_description:focus,
@@ -174,11 +173,9 @@ body{
     border: 1px solid #28B9B5;
 }
 
-.add_btn:focus { outline: none;}
+.add_btn:focus { outline: none; }
 
-
-/* LISTS */
-
+/***** LISTS *****/
 .container {
     width: 1000px;
     margin: 60px auto;
@@ -195,29 +192,29 @@ body{
     width: 475px;
 }
 
-h2{
+h2 {
     text-transform: uppercase;
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 15px;
 }
 
-.income_title { color: #28B9B5;}
-.expenses_title { color: #FF5049;}
+.icome_title { color: #28B9B5; }
+.expenses_title { color: #FF5049; }
 
-.item{
+.item {
     padding: 13px;
     border-bottom: 1px solid #e7e7e7;
 }
 
-.item:first-child { border-top: 1px solid #e7e7e7;}
-.item:nth-child(even) { background-color: #f7f7f7;}
+.item:first-child { border-top: 1px solid #e7e7e7; }
+.item:nth-child(even) { background-color: #f7f7f7; }
 
 .item_description {
     float: left;
 }
 
-.item__value {
+.item_value {
     float: left;
     transition: transform 0.3s;
 }
@@ -227,7 +224,7 @@ h2{
     margin-left: 20px;
     transition: transform 0.3s;
     font-size: 11px;
-    background-color: #ffdad9;
+    background-color: #FFDAD9;
     padding: 3px;
     border-radius: 3px;
     width: 32px;
@@ -241,9 +238,10 @@ h2{
 
 .expenses .item_value,
 .expenses .item_percentage,
-.expenses .item_delete--btn{
+.expenses .item_delete--btn {
     color: #FF5049;
 }
+
 
 .item_delete {
     float: left;
@@ -261,17 +259,20 @@ h2{
 }
 
 .item_delete--btn:focus { outline: none; }
-.item_delete--btn:active { transform: translateY(20px); }
+.item_delete--btn:active { transform: translateY(2px); }
 
 .item:hover .item_delete--btn { display: block; }
 .item:hover .item_value { transform: translateX(-20px); }
 .item:hover .item_percentage { transform: translateX(-20px); }
 
+
 .unpaid {
-    background-color: #ffdad9 !important;
+    background-color: #FFDAD9 !important;
     cursor: pointer;
     color: #FF5049;
+
 }
 
-.unpaid .item_percentage { box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.1);}
-.unpaid:hover .item_description { font-weight: 900;}
+.unpaid .item_percentage { box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.1); }
+.unpaid:hover .item_description { font-weight: 900; }
+
